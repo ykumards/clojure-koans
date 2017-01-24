@@ -1,0 +1,7 @@
+exit
+(subs "Hello World" 5)
+(subs "Hello World" 6)
+(string/split-lines "1\n2\n3")
+(:require [koan-engine.core :refer :all]
+            [clojure.string :as string]))
+(:require [clojure.string :as string])
