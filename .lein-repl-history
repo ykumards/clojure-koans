@@ -5,3 +5,5 @@ exit
 (:require [koan-engine.core :refer :all]
             [clojure.string :as string]))
 (:require [clojure.string :as string])
+(fn [f])
+(. System exit 0)
