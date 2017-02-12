@@ -4,7 +4,6 @@
 (meditations
   "Lists can be expressed by function or a quoted form"
   (= '(1 2 3 4 5) (list 1 2 3 4 5))
-
   "They are Clojure seqs (sequences), so they allow access to the first"
   (= 1 (first '(1 2 3 4 5)))
 
